@@ -1,0 +1,456 @@
+/* Color References 
+
+ONS LOGO BLUE:  #005cb9
+ONS LOGO ORANGE: #ff4c00
+ONS DARKER BEIGE:  #F5EDE1
+ONS LIGHTER BEIGE: #FCG9F5
+ONS paragraph grey: #39434f
+
+*/
+
+
+/* === General === */
+
+
+body {
+    /*margin-top: 10px;*/ 
+    font-family: 'Lato', 'Helvetica', sans-serif;
+    font-size: 16px;
+    background: #F5EDE1;
+    color: #39434f;
+    position: relative;
+}
+
+/* === Global == */
+
+.main-content {
+    background: #f5ede1;
+
+}
+header {
+    background: white;
+}
+h1,h2,h3,h4,h5,h6 {    
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+    color: #005cb9;   
+}
+
+h1{
+    font-size: 3em;
+}
+
+h1,h2{
+    margin: 0 0 40px;
+}
+
+h3{   
+    margin: 10px 0;
+}
+h3, .h3 {
+    font-size: 26px;
+}
+
+h4{   
+    font-size: 18px;
+}
+p {
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+p.lead {
+    font-weight: normal;
+}
+
+a:link, a:visited {
+    color: #4981ce;
+    text-decoration: underline;
+    
+}
+a:hover {
+    color: rgba(73, 129, 206, .5);
+    text-decoration: none;  
+}
+article, aside {
+    position: relative;
+    background: #fff;
+    margin: 0 0 40px;
+}
+
+.main_logo {
+    width: 190px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.site-header {
+    margin-bottom: 20px;
+}
+
+.site-header .col-sm-4:first-child {
+    width: 18%;
+}
+
+.site-header .col-sm-4:nth-child(2) {
+    width: 48%;
+        padding-top: 20px
+}
+.site-header h1{
+    padding-left: 190px;
+    line-height: 141px;
+    margin-right: .5em;
+    float: left;
+    margin-left: 3.9%;
+    display: inline;
+    background: url('assets/img/ons_logo.svg') no-repeat left center;
+    background-size: 180px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.site-header h3{
+    color: #005cb9;
+    display: inline-block;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.site-header h4 {
+    color: #005cb9;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+
+}
+
+.site-header p{
+    text-align: right;
+    color: #005cb9;
+    margin-top: 30px;
+    margin-bottom: 0;
+
+}
+.site-header p + p {
+    margin-top: 0;
+}
+.site-header > .container {
+    background: white;
+    padding: 15px;
+}
+
+
+/* Main Content Styles */
+article,.post, aside {
+    background: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+article header {
+    margin-bottom: 15px;
+}
+
+article h4 {
+    color: #39434f;
+}
+
+.references {
+    font-size: .85em;
+}
+.fa {
+    color: #39434f;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+i.fa.fa-users, i.fa.fa-comments-o {
+    color: #4981ce;
+}
+/*i.fa.fa-users:hover {
+    color: rgba(73, 129, 206, .5);
+}
+i.fa.fa-comments-o:hover {
+    color: rgba(73, 129, 206, .5);
+}*/
+
+.social-media {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ---These table styles were implemented for the custom social sharing div - that was replaced with Add This code ----- */
+.table.table-bordered {
+    border: 1px solid #C0C0C0;
+    width: 50%;
+    color: #C0C0C0;
+    font-size: 90%;
+}
+
+.table.table-bordered td {
+    width: 50%;
+}
+
+.table.table-bordered i.fa {
+    color: #C0C0C0;
+    font-size: 120%;
+}
+
+article.post > header > div.social-media > div > table > tbody > tr > td > a{
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+article.post > header > div.social-media > div > table > tbody > tr > td > a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.post-details {
+    margin-left: 15px;
+    font-style: italic;
+}
+.post-image {
+    float: right;
+    margin: 0px 0px 15px 20px;
+    overflow: hidden;
+}
+
+/* First Paragraph Letter DropCap */
+/* article p:first-child:first-letter { 
+    float: left; 
+    color: #005cb9;
+    font-size: 55px; 
+    line-height: 60px; 
+    padding-top: 4px; 
+    padding-right: 8px; 
+    padding-left: 3px; 
+    font-family: Georgia; 
+}*/
+
+.post-excerpt {
+    padding-bottom: 1em; 
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: .95em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    border-bottom: 1px dotted #C0C0C0;
+    color: #C0C0C0;
+}
+/* Aside Nav Styles */
+
+aside.site-nav {
+    border-top: 4px solid #005cb9;
+    padding: 12px;    
+}
+
+aside.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+aside.site-nav ul h3 {
+    text-transform: capitalize;
+}
+
+aside.site-nav ul li {
+    display: block; 
+    /*padding-bottom: 10px;*/ 
+   /* border-bottom: 1px solid #39434f;*/ 
+}
+
+aside.site-nav ul li.active a{
+    color: #39434f;
+    color: rgba(73, 129, 206, .5);
+}
+
+aside.site-nav ul li a {
+    display: block;   
+}
+
+aside.site-nav ul li a:hover {
+    background: none; 
+    color: rgba(73, 129, 206, .5); 
+}
+
+.affix {
+    position: fixed;
+    right: 83px;
+    width: 389px;
+}
+
+/*Boostrap native nav element style override, the bootstrap nav element had to be added into the mark up for scrollspy to work, therefore it was calling bootstraps native nav styling. Here we are overriding that style*/
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 5px 5px;
+}
+
+/*Footer*/
+footer {
+    padding-bottom: 1em;
+    background: white;
+}
+footer .container {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+footer h4 {
+    border-bottom: 1px dotted #005cb9;
+    padding-bottom: 10px;
+    /*text-transform: uppercase;*/   
+}
+footer h5 {
+    font-size: 1em;
+    margin-bottom: 0;
+}
+footer p {
+    font-size: .85em;
+    margin-bottom: 0;
+    line-height: 150%;
+}
+footer p + p {
+    margin-bottom: 0;
+}
+
+footer .row + .row {
+    margin-top: 1em;
+}
+
+.footer_logo {
+    width: 150px;
+    display: block;
+    padding-top: 25px;
+    
+}
+
+/* Back To Top Scroll */
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px; /* height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
+
+/* Reveal on scroll styles */
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s;
+}
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+/* ------------- Media Queries -------------- */
+
+@media screen and (max-width: 1199px){
+    
+    /* ----fix header ------ */
+    .site-header .col-sm-4:first-child {
+        width: 22%;
+    }
+
+    .site-header .col-sm-4:nth-child(2) {
+        width: 55%;
+        padding-top: 20px
+    }
+
+    .site-header .col-sm-4:nth-child(3) {
+        width: 20%;
+        padding-top: 20px
+    }
+
+    .site-header p {
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 990px){
+    
+    /* ----fix header ------ */
+    .main_logo {
+        width: 160px;
+        display: inline-block;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+    .site-header h3 {
+        color: #005cb9;
+        display: inline-block;
+        font-weight: 400;
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .site-header h4 {
+        color: #005cb9;
+        padding: 0;
+        margin: 0;
+        font-style: italic;
+        font-size: 15px;
+    }
+    .site-header .col-sm-4:first-child {
+        width: 25%;
+    }
+
+    .site-header .col-sm-4:nth-child(2) {
+        width: 50%;
+        padding-top: 20px
+    }
+
+    .site-header .col-sm-4:nth-child(3) {
+        width: 25%;
+        padding-top: 20px
+    }
+
+    .site-header p {
+        margin-top: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
